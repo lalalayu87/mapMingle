@@ -9,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Hello, MapMingle</Text>
+      <Text>지도</Text>
     </View>
   );
 }
