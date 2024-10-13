@@ -1,5 +1,15 @@
-import { View } from "react-native";
+import { View, Text } from "react-native";
 
 export default function FavoriteScreen() {
-  return <View>즐겨찾기</View>;
+  return (
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <Text>즐겨찾기</Text>
+    </View>
+  );
 }
